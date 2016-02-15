@@ -13,7 +13,7 @@ namespace graphconsole
 
         //set up our variables needed for auth
         string clientID, clientSecret;
-        AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.com/PUTTENANTHERE");
+        AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.com/PUTTENANTHERE",false);
 
         static void Main(string[] args)
         {
