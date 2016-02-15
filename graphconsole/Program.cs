@@ -10,7 +10,7 @@ namespace graphconsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("KORA!");
+            Console.WriteLine("KORA! Noooo!");
         }
     }
 }
